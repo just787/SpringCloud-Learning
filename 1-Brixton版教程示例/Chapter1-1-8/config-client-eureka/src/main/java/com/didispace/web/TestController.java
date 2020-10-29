@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+    // test
     @Value("${from:}")
     private String from;
 
